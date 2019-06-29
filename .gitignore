@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Custom
+src/.vs
+src/Debug
+src/x64
+src/vulkan_render/Debug
+src/vulkan_render/x64
+src/vulkan_render/*.user
