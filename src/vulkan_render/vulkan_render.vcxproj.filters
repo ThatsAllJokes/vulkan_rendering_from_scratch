@@ -16,6 +16,9 @@
     <Filter Include="glfw">
       <UniqueIdentifier>{65f405b2-5606-4b23-8671-2f2669c2be7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d4b8c0c8-c987-4257-a447-3e9ec00dab4a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vulkan_render.cpp">
@@ -83,5 +86,13 @@
     <ClInclude Include="..\..\extern\glfw\src\osmesa_context.h">
       <Filter>glfw</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\shaders\triangle.vert.glsl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\triangle.frag.glsl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
